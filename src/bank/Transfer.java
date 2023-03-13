@@ -113,7 +113,8 @@ public class Transfer extends Transaction{
      * @return Ob beide Objekt gleiche Werte besitzen
      */
     public boolean equals(Transfer transfer){
-
+        System.out.println("as");
         return isEqualToComparedObject(transfer) && Objects.equals(transfer.sender, sender) && Objects.equals(transfer.recipient, recipient);
     }
 }
+
