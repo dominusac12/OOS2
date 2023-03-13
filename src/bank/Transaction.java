@@ -107,6 +107,8 @@ public abstract class Transaction implements CalculateBill {
     public boolean equals(Transaction trans) {
 
 
+
+        int x;
         return isEqualToComparedObject(trans);
     }
 
